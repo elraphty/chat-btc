@@ -2,12 +2,15 @@
 
 # dependencies
 /node_modules
+./lnServer/node_modules
+
 /.pnp
 .pnp.js
 
 # env
 .env
 .env.local
+./lnServer/.env
 
 # testing
 /coverage
@@ -24,6 +27,7 @@
 *.pem
 .vscode
 package-lock.json
+./lnServer/package-*.json
 yarn.lock
 
 # debug
